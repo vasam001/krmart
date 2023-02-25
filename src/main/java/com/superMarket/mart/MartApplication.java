@@ -16,9 +16,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class MartApplication {
 
 	public static void main(String[] args) {
-		System.out.println("----------before start application------------");
+		System.out.println("----------before start application----------");
 		SpringApplication.run(MartApplication.class, args);
-		System.out.println("----------after start application------------");
+		System.out.println("----------after start application----------");
 	}
 	/*
 	 * @Bean public Docket productApi() { return new
