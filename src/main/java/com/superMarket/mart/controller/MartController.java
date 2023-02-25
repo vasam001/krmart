@@ -43,7 +43,7 @@ public class MartController {
 
 	@GetMapping("/welcome")
 	public String welcome(@RequestParam String name) {
-		String message = "welocme to Mart " + name;
+		String message = "welocme to Mart  name is : " + name;
 		return message;
 	}
 
