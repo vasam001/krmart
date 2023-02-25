@@ -55,7 +55,7 @@ public class MartController {
 
 	@PutMapping("/products")
 	public String updateProduct() {
-		String message = "product updated successfully";
+		String message = "product updated successfully successfully";
 		return message;
 	}
 
