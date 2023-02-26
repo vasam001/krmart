@@ -47,7 +47,7 @@ public class ControllerClass {
 	
 	@DeleteMapping("/deletemethod")
 	public String deletemethod() {
-		String msg = "this is a delete mapping method";
+		String msg = "this is a delete mapping method for learning purpose only";
 		return msg;
 	}
 	
