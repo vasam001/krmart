@@ -24,7 +24,7 @@ public class ControllerClass {
 	
 	@GetMapping("/cltrmethod")
 	public String cltrmethod(@RequestParam String name) {
-		String msg = "Hiiiiiiiiiiiiiiiii "+name;
+		String msg = "Hi "+name;
 		return msg;
 	}
 
