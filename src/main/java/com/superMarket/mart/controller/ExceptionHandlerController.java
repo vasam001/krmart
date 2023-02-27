@@ -22,7 +22,7 @@ public class ExceptionHandlerController {
 	@ExceptionHandler(MartServiceException.class)
 	public @ResponseBody MartExceptionResponse handleExceptionResponse(final MartServiceException exception,
 			HttpServletRequest httpServletRequest) {
-		System.out.println("exception : " + exception.getExceptionMessage());
+		System.out.println("Exception : " + exception.getExceptionMessage());
 		MartExceptionResponse martExceptionResponse = new MartExceptionResponse();
 		martExceptionResponse.setExeptionMessage(exception.getExceptionMessage());
 		martExceptionResponse.setRequestedUri(httpServletRequest.getRequestURI());
